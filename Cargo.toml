@@ -1,0 +1,11 @@
+[package]
+name = "x-msdos"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+v1_25 = []
+v2_0 = []
+v4_0 = []
+multitasking = ["v4_0"]
